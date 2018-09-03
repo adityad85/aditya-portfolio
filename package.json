@@ -36,6 +36,7 @@
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
     "graphql": "^0.13.2",
     "helmet": "^3.13.0",
     "merge-graphql-schemas": "^1.5.3",
