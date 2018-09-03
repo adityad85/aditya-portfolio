@@ -14,6 +14,23 @@ const DEFAULT_QUERY = `
     github
     medium
     twitter
+    skills {
+      name
+    }
+    projects {
+      name
+      description
+      technologies
+      github
+      website
+    }
+    repos {
+      name
+      description
+      technologies
+      github
+      website
+    }
   }
 `;
 

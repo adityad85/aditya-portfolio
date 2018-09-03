@@ -1,11 +1,15 @@
-const Query = `
-  type Query {
-    name: String!
-    email: String!
-    age: Int!
-    github: String!
-    medium: String!
-    twitter: String!
-}`;
+import { mergeTypes } from 'merge-graphql-schemas';
 
-export default Query;
+import Query from './Query';
+import Project from './Project';
+import Repo from './Repo';
+import Skills from './Skils';
+
+const types = [
+  Query,
+  Project,
+  Repo,
+  Skills,
+];
+
+export default mergeTypes(types);

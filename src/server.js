@@ -29,6 +29,7 @@ const server = new ApolloServer({
       'editor.theme': 'dark',
       'editor.fontSize': 12,
       'prettier.printWidth': 80,
+      'editor.cursorShape': 'line',
     },
     tabs: [
       {
