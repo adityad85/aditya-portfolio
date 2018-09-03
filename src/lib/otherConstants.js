@@ -2,9 +2,9 @@ const PLAYGROUND_URL = '/';
 
 const PORT = process.env.PORT || 3000;
 
-const isProduction = process.env.NODE_ENV === 'production';
+// const isProduction = process.env.NODE_ENV === 'production';
 
-const URL = isProduction ? 'https://adityakumarkhare.netlify.com' : `http://localhost:${PORT}`;
+const URL = process.env.URL || `http://localhost:${PORT}`;
 
 const DEFAULT_QUERY = `
   query {
