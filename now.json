@@ -1,0 +1,9 @@
+{
+  "name": "adityad85",
+  "alias": "adityad85.now.sh",
+  "type": "npm",
+  "public": true,
+  "engines": {
+    "node": "^9.0.0"
+  }
+}

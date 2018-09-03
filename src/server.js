@@ -14,6 +14,7 @@ app.get('/status', (req, res) => {
 const {
   DEFAULT_QUERY,
   PLAYGROUND_URL,
+  URL,
 } = constants;
 
 const resolvers = {
