@@ -4,8 +4,10 @@ import { ApolloServer } from 'apollo-server-express';
 import typeDefs from './graphql/types';
 import Query from './graphql/resolvers/Query';
 import constants from './lib/otherConstants';
+import config from './config/express';
 
 const app = express();
+config(app);
 
 app.get('/status', (req, res) => {
   res.send({ message: 'It\'s Up' });
