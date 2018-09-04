@@ -9,7 +9,8 @@
     "test": "jest",
     "precommit": "lint-staged",
     "start:dev": "nodemon --exec DEBUG=* babel-node -- ./src/index.js",
-    "start": "node public"
+    "start": "node public",
+    "heroku-postbuild": "rm -rf public && webpack --mode production"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
