@@ -42,7 +42,7 @@ const projects = () => (
     },
     {
       name: 'React Snake Game',
-      description: 'Build a snake game to recall my childhood dream of building it. Built it using ES6 Best practices and linters',
+      description: 'Built a snake game to recall my childhood dream of building it. Built it using ES6 Best practices and linters',
       technologies: [
         'React',
       ],
@@ -143,32 +143,34 @@ const repos = () => (
   ]
 );
 
-const skills = () => (
+const skills = () => ({
+  name:
   [
-    { name: 'git' },
-    { name: 'MERN' },
-    { name: 'MongoDB' },
-    { name: 'Express' },
-    { name: 'React' },
-    { name: 'Redux' },
-    { name: 'NodeJS' },
-    { name: 'WebPack' },
-    { name: 'Jest' },
-    { name: 'Babel' },
-    { name: 'Travis' },
-    { name: 'JavaScript' },
-    { name: 'ESLint' },
-    { name: 'C++' },
-    { name: 'Algorithms' },
-    { name: 'Data Structures' },
-    { name: 'Netlify' },
-    { name: 'Heroku' },
-    { name: 'JSDoc' },
-    { name: 'Swagger Docs' },
-    { name: 'Continuous Deployment' },
-    { name: 'Continuous Integration' },
-    { name: 'Unit, Integration, End to End Testing' },
-  ]
+    'git',
+    'MERN',
+    'MongoDB',
+    'Express',
+    'React',
+    'Redux',
+    'NodeJS',
+    'WebPack',
+    'Jest',
+    'Babel',
+    'Travis',
+    'JavaScript',
+    'ESLint',
+    'C++',
+    'Algorithms',
+    'Data Structures',
+    'Netlify',
+    'Heroku',
+    'JSDoc',
+    'Swagger Docs',
+    'Continuous Deployment',
+    'Continuous Integration',
+    'Unit, Integration, End to End Testing',
+  ],
+}
 );
 
 export default {

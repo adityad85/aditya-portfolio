@@ -1,3 +1,7 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 const PLAYGROUND_URL = '/';
 
 const PORT = process.env.PORT || 3000;

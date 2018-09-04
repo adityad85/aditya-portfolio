@@ -1,10 +1,10 @@
 const Skills = `
   type Skill {
-    name: String!
+    name: [String!]
   }
 
   type Query {
-    skills: [Skill!]
+    skills: Skill!
   }
 `;
 
