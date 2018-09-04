@@ -15,6 +15,7 @@ const DEFAULT_QUERY = `
     name
     email
     age
+    phone
     github
     medium
     twitter

@@ -22,6 +22,10 @@ const twitter = () => (
   'https://twitter.com/adityad85'
 );
 
+const phone = () => (
+  '+91-7838673831'
+);
+
 const projects = () => (
   [
     {
@@ -179,6 +183,7 @@ export default {
   age,
   github,
   medium,
+  phone,
   twitter,
   projects,
   repos,
